@@ -50,7 +50,7 @@ def data_render(raw_data=[], indexst='', length=5):
             print("Get data error due to %s" % e)
 
 
-def soup_page(Browser=Browser_init.Browser, URL=''):
+def soup_page(Browser=Browser_init().Browser, URL=''):
     """
     Get URL and return Soup Page
     """

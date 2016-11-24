@@ -29,7 +29,7 @@ class BOC_DATA(object):
                 bt_find = Browser.find_element_by_css_selector("input[onclick*='search_for_whpj()']")
                 bt_find.click()
                 sp = soup_page(Browser)
-                
+
             except Exception as e:
                 print("Failed to get %s currency due to %s" % (currency, e))
         else:
